@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-15 04:53:02 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE2OzIwMjQtMDItMTU7MDQ6MTU6MzkgcC4gbS47MjgzOQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE2OzIwMjQtMDItMTU7MDQ6NTM6MDIgcC4gbS47MjsyOTQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="Edad" type="Integer" array="False" size=""/>
+            <assign variable="Edad" expression="26"/>
+            <output expression="&quot;Tu edad es&quot;" newline="True"/>
+            <output expression="edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
