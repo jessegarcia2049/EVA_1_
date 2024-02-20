@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-20 04:54:13 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjA3OzIwMjQtMDItMjA7MDQ6MTg6NDIgcC4gbS47MjgzMQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjA3OzIwMjQtMDItMjA7MDQ6NTQ6MTMgcC4gbS47MzsyOTM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="clave" type="String" array="False" size=""/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="materia" type="String" array="False" size=""/>
+            <declare name="tipoMateria" type="Boolean" array="False" size=""/>
+            <declare name="creditos" type="String" array="False" size=""/>
+            <declare name="carrera" type="String" array="False" size=""/>
+            <declare name="horasTeoricas" type="Integer" array="False" size=""/>
+            <declare name="horasPracticas" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#191;Cual es su clave?&quot;" newline="True"/>
+            <input variable="clave"/>
+            <output expression="&quot;Cu&#225;l es el nombre de su materia?&quot;" newline="True"/>
+            <input variable="materia"/>
+            <output expression="&quot;&#191;Que tipo de Materia es?&quot;" newline="True"/>
+            <input variable="tipoMateria"/>
+            <output expression="&quot;Cu&#225;ntos cr&#233;ditos tiene?&quot;" newline="True"/>
+            <input variable="creditos"/>
+            <output expression="&quot;Qu&#233; carrera estudia?&quot;" newline="True"/>
+            <input variable="carrera"/>
+            <output expression="&quot;Cu&#225;ntas horas teoricas tiene?&quot;" newline="True"/>
+            <input variable="horasTeoricas"/>
+            <output expression="&quot;Cu&#225;ntas horas pr&#225;cticas tiene?&quot;" newline="True"/>
+            <input variable="horasPracticas"/>
+        </body>
+    </function>
+</flowgorithm>
